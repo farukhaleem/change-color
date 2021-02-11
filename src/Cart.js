@@ -7,7 +7,7 @@ function Cart(){
     
     return(
         <div className={ `box ${isColor ? 'red' : 'blue'}`}>
-            <h1>{count}</h1>
+            <h4>Counter Value {count}</h4>
             <button className='btn' onClick={ ()=> addCount(++count)}> Click to Add</button>
             <button className='btn' onClick={ ()=> setColor(!isColor)}>{`Change ${isColor ? 'blue' : 'red'} color`}</button>
             <button className='btn' onClick={ ()=> addCount(0)}> Reset Value</button>
