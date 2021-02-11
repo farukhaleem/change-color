@@ -37,5 +37,3 @@ jobs:
     
     - name: deploying on surge
       run: surge ./build http://react-state.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
-
-      © 2021 GitHub, Inc.
